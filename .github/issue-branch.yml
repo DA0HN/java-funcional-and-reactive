@@ -1,4 +1,4 @@
-        openDraftPr: true
+        openDraftPR: true
         gitSafeReplacementChar: '-'
         mode: chatops
         branchName: 'FnFx-issue-${issue.number}'

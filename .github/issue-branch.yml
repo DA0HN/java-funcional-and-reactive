@@ -1,0 +1,8 @@
+        openDraftPr: true
+        gitSafeReplacementChar: '-'
+        mode: chatops
+        branchName: 'FnFx-${issue.number}'
+        autoCloseIssue: true
+        branches:
+            - label: seção
+              name: master

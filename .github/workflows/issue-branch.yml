@@ -2,10 +2,10 @@
 name: Create Issue Branch
 on:
     issues:
-        gitSafeReplacementChar: '-'
-        mode: chatops
         types: [assigned]
-        branchName: FNRX-issue-'${issue.number}'
+        mode: chatops
+        gitSafeReplacementChar: '-'
+        branchName: '${issue.number}-${issue.title,}'
         autoCloseIssue: true
         branches:
           - label: seção

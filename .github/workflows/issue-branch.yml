@@ -3,7 +3,7 @@ name: Create Issue Branch
 on:
     issues:
         types: [assigned]
-        branchName: 'FnRx-${issue.number}'
+        branchName: FnRx-'${issue.number}'
         mode: chatops
         autoCloseIssue: true
         branches:

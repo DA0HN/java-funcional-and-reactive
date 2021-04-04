@@ -2,7 +2,7 @@
         openPR: true
         gitSafeReplacementChar: '-'
         mode: chatops
-        branchName: 'FnFx-${issue.number}'
+        branchName: 'FnFx-issue-${issue.number}'
         autoCloseIssue: true
         branches:
             - label: seção

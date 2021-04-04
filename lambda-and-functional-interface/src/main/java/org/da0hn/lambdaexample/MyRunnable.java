@@ -1,4 +1,4 @@
-package org.da0hn;
+package org.da0hn.lambdaexample;
 
 /**
  * Created by daohn on 04/04/2021

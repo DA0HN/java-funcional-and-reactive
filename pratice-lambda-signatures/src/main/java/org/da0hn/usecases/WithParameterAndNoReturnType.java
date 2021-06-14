@@ -7,7 +7,7 @@ import org.da0hn.lambda.MathOperation;
  * @author daohn
  * @since 14/06/2021
  */
-public class WithParameterNoReturnType {
+public class WithParameterAndNoReturnType {
 
   public static void main(String[] args) {
 

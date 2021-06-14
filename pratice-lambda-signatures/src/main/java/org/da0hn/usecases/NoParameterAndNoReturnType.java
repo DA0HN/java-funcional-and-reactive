@@ -7,7 +7,7 @@ import org.da0hn.lambda.Name;
  * @author daohn
  * @since 14/06/2021
  */
-public class NoParameterNoReturnType {
+public class NoParameterAndNoReturnType {
 
   public static void main(String[] args) {
     Name name = () -> System.out.println("John");

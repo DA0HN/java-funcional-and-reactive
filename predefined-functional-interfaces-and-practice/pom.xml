@@ -9,14 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>practice-lambda-signatures</artifactId>
+    <artifactId>predefined-functional-interfaces-and-practice</artifactId>
+    <name>java-funcional-and-reactive</name>
 
     <properties>
         <name.jar>java-funcional-and-reactive</name.jar>
-        <java.version>15</java.version>
+        <java.version>16</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>15</maven.compiler.source>
-        <maven.compiler.target>15</maven.compiler.target>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
     </properties>
 
 </project>

@@ -1,0 +1,15 @@
+@startuml
+
+
+(Most used functional interfaces) as fn_interface
+(Consumer) as c
+(Predicate) as p
+(Function) as fn
+(Supplier) as sup
+
+fn_interface -up-> c : "Takes/Consumes something"
+fn_interface -up-> p : "Test condition"
+fn_interface -down-> fn : "Takes something, returns something"
+fn_interface -down-> sup : "Supplies/returns something"
+
+@enduml

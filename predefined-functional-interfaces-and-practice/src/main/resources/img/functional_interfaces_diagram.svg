@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="287px" preserveAspectRatio="none" style="width:499px;height:287px;background:#FFFFFF;" version="1.1" viewBox="0 0 499 287" width="499px" zoomAndPan="magnify"><defs><filter height="300%" id="facrb2w36gsqa" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><ellipse cx="201.3083" cy="141.0617" fill="#FEFECE" filter="url(#facrb2w36gsqa)" rx="128.3083" ry="28.0617" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="225" x="88.8083" y="143.9083">Most used functional interfaces</text><ellipse cx="281.7349" cy="20.947" fill="#FEFECE" filter="url(#facrb2w36gsqa)" rx="62.7349" ry="14.947" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="242.7349" y="24.6945">Consumer</text><ellipse cx="122.5597" cy="20.782" fill="#FEFECE" filter="url(#facrb2w36gsqa)" rx="61.5597" ry="14.782" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="85.0597" y="24.5295">Predicate</text><ellipse cx="62.3333" cy="260.7455" fill="#FEFECE" filter="url(#facrb2w36gsqa)" rx="56.3333" ry="14.7455" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="28.3333" y="264.4931">Function</text><ellipse cx="340.3402" cy="260.7338" fill="#FEFECE" filter="url(#facrb2w36gsqa)" rx="54.8402" ry="14.7338" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="307.3402" y="264.4814">Supplier</text><!--MD5=[6ff4dcda64f2b2a2b7b0b1d165c14623]
+reverse link c to fn_interface--><path d="M270.048,40.488 C262.41,52.673 252.055,68.919 242.5,83 C235.724,92.986 228.057,103.773 221.202,113.248 " fill="none" id="c-backto-fn_interface" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="272.732,36.195,264.57,41.707,270.082,40.435,271.354,45.947,272.732,36.195" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="182" x="254.5" y="79.0669">Takes/Consumes something</text><!--MD5=[99e6d0012d1fd70f93efbf1012562e6c]
+reverse link p to fn_interface--><path d="M127.972,41.408 C131.997,53.879 138.209,70.099 146.5,83 C153.488,93.874 162.76,104.448 171.696,113.476 " fill="none" id="p-backto-fn_interface" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="126.381,36.313,125.2447,46.0961,127.871,41.0858,132.8813,43.7121,126.381,36.313" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="147.5" y="79.0669">Test condition</text><!--MD5=[13acba62ce95888066a44d8386a626e3]
+link fn_interface to fn--><path d="M109.681,160.659 C89.9642,169.075 71.4781,181.2848 59.5,199 C51.2317,211.2286 52.9325,228.236 56.1559,241.1052 " fill="none" id="fn_interface-to-fn" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="57.5003,245.9905,58.9689,236.2517,56.1736,241.1697,51.2556,238.3745,57.5003,245.9905" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="236" x="60.5" y="212.0669">Takes something, returns something</text><!--MD5=[1480a926fa522e267774d1e879585ae7]
+link fn_interface to sup--><path d="M255.343,166.5 C271.3,175.3238 288.078,186.2905 301.5,199 C314.35,211.1676 324.917,228.3861 331.795,241.3445 " fill="none" id="fn_interface-to-sup" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="334.16,245.9087,333.5708,236.0775,331.8596,241.4693,326.4677,239.7582,334.16,245.9087" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="175" x="316.5" y="212.0669">Supplies/returns something</text><!--MD5=[4067cce07b31fc5ae9b5155697329cd4]
+@startuml
+(Most used functional interfaces) as fn_interface
+(Consumer) as c
+(Predicate) as p
+(Function) as fn
+(Supplier) as sup
+
+fn_interface -up-> c : "Takes/Consumes something"
+fn_interface -up-> p : "Test condition"
+fn_interface -down-> fn : "Takes something, returns something"
+fn_interface -down-> sup : "Supplies/returns something"
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 12:40:07 UTC 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,36 @@
+@startuml
+
+(Functional Programming) as fn
+'Techniques
+(Tail call Optimization) as tails
+(Lazy Evaluation) as lazy
+(Currying) as currying
+(Closures) as closures
+(Functional Composition) as composition
+(Function Chaining) as chaining
+'Concepts
+(Referencial Transparency) as ref
+(Writing Functional APIs) as api
+(Higher Order Functions) as high
+(Pure Functions - No side effects) as pure
+(First Class Citizens) as first
+
+fn -down-> tails : "Techniques"
+fn -down-> lazy : "Techniques"
+fn -down-> currying : "Techniques"
+fn -down-> closures : "Techniques"
+fn -down-> composition : "Techniques"
+fn -down-> chaining : "Techniques"
+fn -up-> ref : "Concepts"
+fn -up-> api : "Concepts"
+fn -up-> high : "Concepts"
+fn -up-> pure : "Concepts"
+fn -up-> first : "Concepts"
+
+'fn_interface -up-> c : "Takes/Consumes something"
+'fn_interface -up-> p : "Test condition"
+'fn_interface -down-> fn : "Takes something, returns something"
+'fn_interface -down-> sup : "Supplies/returns something"
+
+
+@enduml

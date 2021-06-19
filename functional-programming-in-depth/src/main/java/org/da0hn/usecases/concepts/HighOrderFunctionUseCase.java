@@ -1,8 +1,8 @@
 package org.da0hn.usecases.concepts;
 
-import org.da0hn.lambdas.IConfigurator;
-import org.da0hn.lambdas.IFactory;
-import org.da0hn.lambdas.IProducer;
+import org.da0hn.usecases.concepts.lambdas.IConfigurator;
+import org.da0hn.usecases.concepts.lambdas.IFactory;
+import org.da0hn.usecases.concepts.lambdas.IProducer;
 
 /**
  * @author daohn

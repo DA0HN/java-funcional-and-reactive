@@ -1,6 +1,6 @@
 package org.da0hn.usecases.techniques;
 
-import org.da0hn.lambdas.IConsumer;
+import org.da0hn.usecases.techniques.lambdas.IConsumer;
 
 import java.util.function.Function;
 

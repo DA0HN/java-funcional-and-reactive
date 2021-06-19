@@ -1,4 +1,4 @@
-package org.da0hn.usecases;
+package org.da0hn.usecases.concepts;
 
 import static java.lang.String.format;
 

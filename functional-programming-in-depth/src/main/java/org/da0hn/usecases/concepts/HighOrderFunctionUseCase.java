@@ -1,4 +1,4 @@
-package org.da0hn.usecases;
+package org.da0hn.usecases.concepts;
 
 import org.da0hn.lambdas.IConfigurator;
 import org.da0hn.lambdas.IFactory;

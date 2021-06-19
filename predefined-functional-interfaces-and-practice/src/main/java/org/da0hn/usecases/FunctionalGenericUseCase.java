@@ -1,6 +1,6 @@
 package org.da0hn.usecases;
 
-import org.da0hn.lambdas.FunctionalGenerics;
+import org.da0hn.usecases.concepts.lambdas.FunctionalGenerics;
 
 /**
  * Created by daohn on 14/06/2021

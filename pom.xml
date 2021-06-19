@@ -12,6 +12,7 @@
         <module>lambda-and-functional-interface</module>
         <module>practice-lambda-signatures</module>
         <module>predefined-functional-interfaces-and-practice</module>
+        <module>functional-programming-in-depth</module>
     </modules>
 
     <properties>
@@ -27,6 +28,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <source>16</source>
                     <target>16</target>

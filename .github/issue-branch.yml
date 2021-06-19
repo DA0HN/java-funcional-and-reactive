@@ -1,4 +1,6 @@
         openDraftPR: true
+        copyIssueLabelsToPR: true
+        copyIssueAssigneeToPR: true
         gitSafeReplacementChar: '-'
         mode: chatops
         branchName: 'FnRx-issue-${issue.number}'

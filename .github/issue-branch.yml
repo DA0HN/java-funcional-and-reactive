@@ -1,4 +1,4 @@
-        openDraftPR: true
+        openPR: true
         copyIssueLabelsToPR: true
         copyIssueAssigneeToPR: true
         gitSafeReplacementChar: '-'

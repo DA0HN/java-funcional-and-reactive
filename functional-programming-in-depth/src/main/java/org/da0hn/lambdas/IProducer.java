@@ -1,4 +1,4 @@
-package org.da0hn.usecases.lambdas;
+package org.da0hn.lambdas;
 
 /**
  * @author daohn

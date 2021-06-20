@@ -8,7 +8,7 @@
 - [ ] Method and Constructor Reference [#4](https://github.com/DA0HN/java-funcional-and-reactive/issues/4)
 - [ ] Optional for Null Pointer [#5](https://github.com/DA0HN/java-funcional-and-reactive/issues/5)
 - [x] Functional Programming in Depth [#6](https://github.com/DA0HN/java-funcional-and-reactive/issues/6)
-- [ ] Design Patterns in Functional Way [#7](https://github.com/DA0HN/java-funcional-and-reactive/issues/7)
+- [x] Design Patterns in Functional Way [#7](https://github.com/DA0HN/java-funcional-and-reactive/issues/7)
 - [ ] Streams and Parallel Streams in depth
 - [ ] Creating Streams from Custom Source and Understanding Spliterator pattern
 - [ ] Collectors for Data Processing in Depth

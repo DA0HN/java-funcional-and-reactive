@@ -13,6 +13,7 @@
         <module>practice-lambda-signatures</module>
         <module>predefined-functional-interfaces-and-practice</module>
         <module>functional-programming-in-depth</module>
+        <module>design-patterns-in-functional-way</module>
     </modules>
 
     <properties>

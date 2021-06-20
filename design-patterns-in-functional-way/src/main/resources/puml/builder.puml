@@ -1,0 +1,22 @@
+@startuml
+
+interface IBuilder <<interface>> {
+    + builderPiece1() : Builder
+    + builderPiece2() : Builder
+    + getCompleteProduct() : Product
+}
+class Builder <<concrete>> {
+    + builderPiece1() : Builder
+    + builderPiece2() : Builder
+    + getCompleteProduct() : Product
+}
+class Product
+class Director <<executor>> {
+    + create(builder: builder) : Product
+}
+
+Builder ..> Product : <<creates>>
+Builder ..|> IBuilder
+Director o-- IBuilder
+
+@enduml

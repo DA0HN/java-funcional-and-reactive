@@ -1,0 +1,19 @@
+@startuml
+
+interface ICommand <<interface>> {
+    + execute() : void
+}
+
+class Invoker
+class Command <<concrete>> {
+    + execute() : void
+}
+class Receiver {
+    + action : void
+}
+
+Invoker *-- ICommand
+Command ..|> ICommand : <<implements>>
+Command --> Receiver : <<uses>>
+
+@enduml

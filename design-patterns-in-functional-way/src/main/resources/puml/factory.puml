@@ -1,0 +1,25 @@
+@startuml
+
+interface IProduct <<interface>> {
+    + operation()
+}
+
+class Product <<concrete>> {
+    + operation()
+}
+
+class ProductFactory <<factory>> {
+    + factoryMethod()
+}
+
+class Client {
+    + main()
+}
+
+left to right direction
+
+Product ...|> IProduct : implements
+ProductFactory *--up- IProduct : <<creates>>
+Client -left-> ProductFactory : <<asks>>
+
+@enduml

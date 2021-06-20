@@ -1,0 +1,22 @@
+@startuml
+
+(Design Patterns Functionally) as fn
+(Command Design Pattern) as command
+(Iterator Design Pattern) as iterator
+(Factory Design Pattern) as factory
+(Builder Design Pattern) as builder
+(Strategy Design Pattern) as strategy
+(Decorator Design Pattern) as decorator
+(Creating fluent interfaces) as interfaces
+
+fn -up-> command
+fn -up-> iterator
+fn -up-> factory
+fn -down-> builder
+fn -down-> strategy
+fn -down-> decorator
+fn -down-> interfaces
+
+
+
+@enduml

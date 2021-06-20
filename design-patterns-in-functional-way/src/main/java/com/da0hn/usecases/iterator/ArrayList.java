@@ -6,7 +6,7 @@ import java.util.function.Consumer;
  * @author daohn
  * @since 20/06/2021
  */
-public class ArrayList {
+class ArrayList {
 
   Object[] elements = new Object[5];
 

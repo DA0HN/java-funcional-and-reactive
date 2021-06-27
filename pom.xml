@@ -14,6 +14,7 @@
         <module>predefined-functional-interfaces-and-practice</module>
         <module>functional-programming-in-depth</module>
         <module>design-patterns-in-functional-way</module>
+        <module>creating-streams-from-custom-source-and-understanding-spliterator-pattern</module>
     </modules>
 
     <properties>

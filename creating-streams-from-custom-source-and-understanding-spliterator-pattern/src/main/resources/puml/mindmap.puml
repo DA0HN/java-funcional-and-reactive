@@ -1,0 +1,10 @@
+@startuml
+
+left to right direction
+
+(Spliterator) --- (Spliterator Interface)
+(Spliterator) --- (Spliterator Characteristics)
+(Spliterator) --- (Creating Own Spliterator)
+
+
+@enduml

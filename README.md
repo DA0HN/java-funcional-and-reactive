@@ -10,7 +10,7 @@
 - [x] Functional Programming in Depth [#6](https://github.com/DA0HN/java-funcional-and-reactive/issues/6)
 - [x] Design Patterns in Functional Way [#7](https://github.com/DA0HN/java-funcional-and-reactive/issues/7)
 - [ ] Streams and Parallel Streams in depth
-- [ ] Creating Streams from Custom Source and Understanding Spliterator pattern
+- [x] Creating Streams from Custom Source and Understanding Spliterator pattern
 - [ ] Collectors for Data Processing in Depth
 - [ ] Creating Your Own Collectors
 - [ ] Playing with Collections and Map in Functional style

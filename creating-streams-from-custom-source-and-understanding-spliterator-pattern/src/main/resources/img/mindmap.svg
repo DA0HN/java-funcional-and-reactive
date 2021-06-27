@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="227px" preserveAspectRatio="none" style="width:493px;height:227px;background:#FFFFFF;" version="1.1" viewBox="0 0 493 227" width="493px" zoomAndPan="magnify"><defs><filter height="300%" id="f1m8kqoxe2rsid" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><ellipse cx="71.0766" cy="107.9153" fill="#FEFECE" filter="url(#f1m8kqoxe2rsid)" rx="65.0766" ry="15.4153" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="28.5766" y="111.6629">Spliterator</text><ellipse cx="369.7229" cy="27.0446" fill="#FEFECE" filter="url(#f1m8kqoxe2rsid)" rx="93.2229" ry="21.0446" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="295.2229" y="29.8913">Spliterator Interface</text><ellipse cx="369.3717" cy="107.8743" fill="#FEFECE" filter="url(#f1m8kqoxe2rsid)" rx="112.3717" ry="24.8743" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="273.8717" y="110.721">Spliterator Characteristics</text><ellipse cx="369.2877" cy="191.8575" fill="#FEFECE" filter="url(#f1m8kqoxe2rsid)" rx="107.2877" ry="23.8575" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="279.2877" y="194.7042">Creating Own Spliterator</text><!--MD5=[72f77ba159a0de8764b524bc2055c24b]
+link Spliterator to Spliterator Interface--><path d="M114.481,96.395 C165.642,82.418 251.868,58.862 309.474,43.125 " fill="none" id="Spliterator-Spliterator Interface" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f78d311ac1217e190fb4a5eab6acfb51]
+link Spliterator to Spliterator Characteristics--><path d="M136.336,108 C171.507,108 216.073,108 256.735,108 " fill="none" id="Spliterator-Spliterator Characteristics" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a6704e3af31b4d3a4d15761e874a9423]
+link Spliterator to Creating Own Spliterator--><path d="M113.539,119.7683 C162.468,133.63 244.387,156.8381 302.142,173.2004 " fill="none" id="Spliterator-Creating Own Spliterator" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[422ece3c382af1befcb2a746e11e47f2]
+@startuml
+left to right direction
+
+(Spliterator) - - - (Spliterator Interface)
+(Spliterator) - - - (Spliterator Characteristics)
+(Spliterator) - - - (Creating Own Spliterator)
+@enduml
+
+PlantUML version 1.2021.8beta3(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

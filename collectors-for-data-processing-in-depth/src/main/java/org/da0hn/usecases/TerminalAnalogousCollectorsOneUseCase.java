@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
  * @author daohn
  * @since 10/07/2021
  */
-public class CollectorsInActionUseCase {
+public class TerminalAnalogousCollectorsOneUseCase {
 
   public static void main(String[] args) {
     var employees = EmployeeDataFactory.create();

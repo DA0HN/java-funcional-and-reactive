@@ -1,7 +1,6 @@
 package org.da0hn.utils;
 
 import org.da0hn.domain.Employee;
-import org.da0hn.usecases.CollectorsInActionUseCase;
 
 import java.io.File;
 import java.io.IOException;
@@ -23,7 +22,7 @@ public class EmployeeDataFactory {
 
   // https://howtodoinjava.com/java/io/read-file-from-resources-folder/
   public static List<Employee> create() {
-    var loader = CollectorsInActionUseCase.class.getClassLoader();
+    var loader = EmployeeDataFactory.class.getClassLoader();
     var path = new File(Objects.requireNonNull(loader.getResource(FILE_NAME)).getFile()).toPath();
 
     try(Stream<String> lines = Files.lines(path)) {

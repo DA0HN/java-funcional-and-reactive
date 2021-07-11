@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="277px" preserveAspectRatio="none" style="width:1008px;height:277px;background:#FFFFFF;" version="1.1" viewBox="0 0 1008 277" width="1008px" zoomAndPan="magnify"><defs/><g><ellipse cx="338.0625" cy="136.0125" fill="#FFFFFF" rx="63.0625" ry="15.0125" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="73" x="298.5625" y="139.7601">Collectors</text><ellipse cx="584.5909" cy="136.1182" fill="#FFFFFF" rx="123.5909" ry="27.1182" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="215" x="477.0909" y="138.9649">Terminal analogous Collectors</text><ellipse cx="112.7923" cy="95.7585" fill="#FFFFFF" rx="101.7923" ry="22.7585" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="168" x="28.7923" y="98.6051">Downstream Collectors</text><ellipse cx="113.2229" cy="175.0446" fill="#FFFFFF" rx="93.2229" ry="21.0446" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="149" x="38.7229" y="177.8913">Collectors Cascading</text><ellipse cx="884.8343" cy="28.1669" fill="#FFFFFF" rx="73.8343" ry="17.1669" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="103" x="830.3343" y="31.9144">List Collectors</text><ellipse cx="884.9504" cy="97.0901" fill="#FFFFFF" rx="73.4504" ry="17.0901" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="102" x="830.9504" y="100.8376">Set Collectors</text><ellipse cx="885.0271" cy="174.8054" fill="#FFFFFF" rx="117.0271" ry="25.8054" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="201" x="784.5271" y="177.6521">To any Collection Collectors</text><ellipse cx="884.8844" cy="253.9769" fill="#FFFFFF" rx="75.3844" ry="17.4769" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="107" x="828.3844" y="257.7244">Map Collectors</text><!--MD5=[03ed6db2dd0252043082f93cedb06b09]
+link Collectors to Terminal analogous Collectors--><path d="M401.014,136 C417.696,136 436.373,136 455.241,136 " fill="none" id="Collectors-to-Terminal analogous Collectors" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="460.567,136,451.567,132,455.567,136,451.567,140,460.567,136" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[8969fa0612eaff049635cd72086063f2]
+reverse link Downstream Collectors to Collectors--><path d="M198.416,111.142 C228.353,116.512 261.064,122.379 287.184,127.064 " fill="none" id="Downstream Collectors-backto-Collectors" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="193.249,110.215,201.4013,115.7413,198.1704,111.0979,202.8139,107.867,193.249,110.215" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[4d646d2e566fc4285b45c771f462ad91]
+reverse link Collectors Cascading to Collectors--><path d="M192.029,161.354 C223.467,155.855 258.819,149.673 286.742,144.79 " fill="none" id="Collectors Cascading-backto-Collectors" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="187.019,162.23,196.5736,164.6193,191.9442,161.3684,195.1951,156.739,187.019,162.23" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[192fe3969b8487e7f54c53333ac4f06d]
+link Terminal analogous Collectors to List Collectors--><path d="M640.861,111.867 C676.761,96.638 724.735,77.07 768,62 C788.462,54.873 811.288,47.964 831.243,42.257 " fill="none" id="Terminal analogous Collectors-to-List Collectors" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="836.251,40.832,826.4998,39.4484,831.442,42.2007,828.6897,47.1429,836.251,40.832" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[35faaf8bfb3faf728258a96545855be9]
+link Terminal analogous Collectors to Set Collectors--><path d="M691.16,122.195 C732.402,116.807 778.511,110.782 815.299,105.976 " fill="none" id="Terminal analogous Collectors-to-Set Collectors" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="820.657,105.276,811.2149,102.4747,815.6991,105.9232,812.2505,110.4074,820.657,105.276" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[2c0083b23ed678d5994eb9e04ee52045]
+link Terminal analogous Collectors to To any Collection Collectors--><path d="M691.16,149.805 C719.422,153.497 749.969,157.488 778.236,161.182 " fill="none" id="Terminal analogous Collectors-to-To any Collection Collectors" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="783.487,161.868,775.082,156.7342,778.5293,161.2193,774.0441,164.6666,783.487,161.868" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[fc723cc5f212c07791817c6d9a284126]
+link Terminal analogous Collectors to Map Collectors--><path d="M635.089,160.735 C671.369,178.2909 722.067,201.7141 768,219 C787.965,226.5132 810.314,233.566 830.026,239.3443 " fill="none" id="Terminal analogous Collectors-to-Map Collectors" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="834.978,240.7854,827.4543,234.4298,830.1772,239.3882,825.2188,242.1111,834.978,240.7854" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[3349e30800c7781d9e8f23cdaa4ffbc8]
+@startuml
+!theme plain
+
+left to right direction
+
+(Collectors) - -> (Terminal analogous Collectors)
+(Downstream Collectors) <- - (Collectors)
+(Collectors Cascading) <- - (Collectors)
+(Terminal analogous Collectors) - -> (List Collectors)
+(Terminal analogous Collectors) - -> (Set Collectors)
+(Terminal analogous Collectors) - -> (To any Collection Collectors)
+(Terminal analogous Collectors) - -> (Map Collectors)
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor white
+    FontColor black
+    FontName Verdana
+    HyperLinkColor blue
+    LineColor black
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor black
+skinparam BackgroundColor white
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor black
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor black
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor black
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor white
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor black
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor black
+  FontName Verdana
+}
+skinparam Header {
+  FontColor black
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color blue
+}
+skinparam IconPackage {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPrivate {
+  Color black
+  BackgroundColor white
+}
+skinparam IconProtected {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPublic {
+  Color black
+  BackgroundColor white
+}
+skinparam Note {
+  FontColor black
+  FontName Verdana
+}
+skinparam Package {
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeA {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeC {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeE {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeI {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeN {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam UseCaseStereoType {
+  FontColor black
+  FontName Verdana
+}
+
+left to right direction
+
+(Collectors) - -> (Terminal analogous Collectors)
+(Downstream Collectors) <- - (Collectors)
+(Collectors Cascading) <- - (Collectors)
+(Terminal analogous Collectors) - -> (List Collectors)
+(Terminal analogous Collectors) - -> (Set Collectors)
+(Terminal analogous Collectors) - -> (To any Collection Collectors)
+(Terminal analogous Collectors) - -> (Map Collectors)
+@enduml
+
+PlantUML version 1.2021.9beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

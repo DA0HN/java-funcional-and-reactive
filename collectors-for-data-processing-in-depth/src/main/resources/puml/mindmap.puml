@@ -1,0 +1,15 @@
+@startuml
+
+!theme plain
+
+left to right direction
+
+(Collectors) --> (Terminal analogous Collectors)
+(Downstream Collectors) <-- (Collectors)
+(Collectors Cascading) <-- (Collectors)
+(Terminal analogous Collectors) --> (List Collectors)
+(Terminal analogous Collectors) --> (Set Collectors)
+(Terminal analogous Collectors) --> (To any Collection Collectors)
+(Terminal analogous Collectors) --> (Map Collectors)
+
+@enduml

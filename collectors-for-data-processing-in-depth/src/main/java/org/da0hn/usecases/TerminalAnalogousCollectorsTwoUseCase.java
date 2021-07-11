@@ -2,6 +2,7 @@ package org.da0hn.usecases;
 
 import org.da0hn.domain.Employee;
 import org.da0hn.utils.EmployeeDataFactory;
+import org.da0hn.utils.Print;
 
 import java.util.List;
 import java.util.Map;
@@ -36,21 +37,17 @@ public class TerminalAnalogousCollectorsTwoUseCase {
     var developersEmployees = employeesGroupedByDesignation.get("Developer");
     // ...
 
-    print(employeesGroupedByDesignation);
+    Print.map(employeesGroupedByDesignation);
   }
 
   private static void partitioningByGender(List<Employee> employees) {
     Map<Boolean, List<Employee>> partitionedEmployeesByGender = employees.stream()
       .collect(Collectors.partitioningBy(e -> e.gender() == 'M'));
-    print(partitionedEmployeesByGender);
+    Print.map(partitionedEmployeesByGender);
 
     var maleEmployees = partitionedEmployeesByGender.get(false);
     var femaleEmployees = partitionedEmployeesByGender.get(true);
 
-  }
-
-  private static <K, V> void print(Map<K, V> map) {
-    map.forEach((k, m) -> System.out.println("[" + k + ", " + m + "]"));
   }
 
   private static void map(List<Employee> employees) {
@@ -59,7 +56,7 @@ public class TerminalAnalogousCollectorsTwoUseCase {
         Employee::id, Employee::name
       ));
 
-    print(getNameById);
+    Print.map(getNameById);
   }
 
   private static void treeSet(List<Employee> employees) {

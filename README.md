@@ -12,7 +12,7 @@
 - [ ] Streams and Parallel Streams in depth
 - [x] Creating Streams from Custom Source and Understanding Spliterator pattern [#13](https://github.com/DA0HN/java-functional-and-reactive/issues/13)
 - [x] Collectors for Data Processing in Depth [#14](https://github.com/DA0HN/java-functional-and-reactive/issues/14)
-- [ ] Creating Your Own Collectors
+- [x] Creating Your Own Collectors [#15](https://github.com/DA0HN/java-functional-and-reactive/issues/15)
 - [ ] Playing with Collections and Map in Functional style
 - [ ] Data Structures Functional Way
 - [ ] Reactive Programming an Introduction

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="306px" preserveAspectRatio="none" style="width:520px;height:306px;background:#FFFFFF;" version="1.1" viewBox="0 0 520 306" width="520px" zoomAndPan="magnify"><defs/><g><!--MD5=[157670393f9014ea34847ceb5851574b]
+class ISubject--><rect codeLine="3" fill="#FFFFFF" height="105.1563" id="ISubject" style="stroke:#000000;stroke-width:1.5;" width="273" x="12" y="12"/><ellipse cx="113.25" cy="32.1328" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M114.2031,28.9141 L115.9219,28.9141 C116.3125,28.9141 116.5,28.8828 116.625,28.8047 C116.8906,28.6484 117.0313,28.3672 117.0313,28.0703 C117.0313,27.8047 116.9219,27.5391 116.6875,27.3672 C116.5156,27.2578 116.375,27.2266 115.9219,27.2266 L110.7813,27.2266 C110.3438,27.2266 110.2188,27.2422 110.0625,27.3359 C109.8125,27.4922 109.6563,27.7891 109.6563,28.0703 C109.6563,28.3516 109.7969,28.6016 110.0156,28.7734 C110.1719,28.8828 110.3594,28.9141 110.7813,28.9141 L112.5,28.9141 L112.5,35.4297 L110.7813,35.4297 C110.3438,35.4297 110.2188,35.4453 110.0625,35.5547 C109.8125,35.7109 109.6563,35.9922 109.6563,36.2891 C109.6563,36.5391 109.7969,36.8047 110.0156,36.9609 C110.1719,37.0859 110.375,37.1328 110.7813,37.1328 L115.9219,37.1328 C116.6719,37.1328 117.0313,36.8516 117.0313,36.2891 C117.0313,36.0078 116.9219,35.7578 116.6875,35.5859 C116.5156,35.4609 116.375,35.4297 115.9219,35.4297 L114.2031,35.4297 L114.2031,28.9141 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="67" x="128.75" y="28.1387">«interface»</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="57" x="133.75" y="43.9639">ISubject</text><line style="stroke:#000000;stroke-width:1.5;" x1="13" x2="284" y1="52.2656" y2="52.2656"/><line style="stroke:#000000;stroke-width:1.5;" x1="13" x2="284" y1="60.2656" y2="60.2656"/><ellipse cx="23" cy="71.2656" fill="#FFFFFF" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="249" x="30" y="77.2607">register(observer: Observer) : void</text><ellipse cx="23" cy="87.5625" fill="#FFFFFF" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="247" x="30" y="93.5576">remove(observer: Observer) : void</text><ellipse cx="23" cy="103.8594" fill="#FFFFFF" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="96" x="30" y="109.8545">notify() : void</text><!--MD5=[1dcf94be89f1d1c6c4f8f797da90f5fa]
+class IObserver--><rect codeLine="9" fill="#FFFFFF" height="72.5625" id="IObserver" style="stroke:#000000;stroke-width:1.5;" width="128" x="380.5" y="28"/><ellipse cx="407.45" cy="48.1328" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M408.4031,44.9141 L410.1219,44.9141 C410.5125,44.9141 410.7,44.8828 410.825,44.8047 C411.0906,44.6484 411.2313,44.3672 411.2313,44.0703 C411.2313,43.8047 411.1219,43.5391 410.8875,43.3672 C410.7156,43.2578 410.575,43.2266 410.1219,43.2266 L404.9813,43.2266 C404.5438,43.2266 404.4188,43.2422 404.2625,43.3359 C404.0125,43.4922 403.8563,43.7891 403.8563,44.0703 C403.8563,44.3516 403.9969,44.6016 404.2156,44.7734 C404.3719,44.8828 404.5594,44.9141 404.9813,44.9141 L406.7,44.9141 L406.7,51.4297 L404.9813,51.4297 C404.5438,51.4297 404.4188,51.4453 404.2625,51.5547 C404.0125,51.7109 403.8563,51.9922 403.8563,52.2891 C403.8563,52.5391 403.9969,52.8047 404.2156,52.9609 C404.3719,53.0859 404.575,53.1328 404.9813,53.1328 L410.1219,53.1328 C410.8719,53.1328 411.2313,52.8516 411.2313,52.2891 C411.2313,52.0078 411.1219,51.7578 410.8875,51.5859 C410.7156,51.4609 410.575,51.4297 410.1219,51.4297 L408.4031,51.4297 L408.4031,44.9141 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="67" x="423.55" y="44.1387">«interface»</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="69" x="422.55" y="59.9639">IObserver</text><line style="stroke:#000000;stroke-width:1.5;" x1="381.5" x2="507.5" y1="68.2656" y2="68.2656"/><line style="stroke:#000000;stroke-width:1.5;" x1="381.5" x2="507.5" y1="76.2656" y2="76.2656"/><ellipse cx="391.5" cy="87.2656" fill="#FFFFFF" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="104" x="398.5" y="93.2607">update() : void</text><!--MD5=[d0da0a299942266ebd64acf2b2e95fa4]
+class Subject--><rect codeLine="13" fill="#FFFFFF" height="105.1563" id="Subject" style="stroke:#000000;stroke-width:1.5;" width="273" x="49" y="194"/><ellipse cx="154.25" cy="214.1328" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M156.5938,209.8047 C155.6563,209.3672 155.0625,209.2266 154.1875,209.2266 C151.5625,209.2266 149.5625,211.3047 149.5625,214.0234 L149.5625,215.1484 C149.5625,217.7266 151.6719,219.6172 154.5625,219.6172 C155.7813,219.6172 156.9375,219.3203 157.6875,218.7734 C158.2656,218.3672 158.5938,217.9141 158.5938,217.5234 C158.5938,217.0703 158.2031,216.6797 157.7344,216.6797 C157.5156,216.6797 157.3125,216.7578 157.125,216.9453 C156.6719,217.4297 156.6719,217.4297 156.4844,217.5234 C156.0625,217.7891 155.375,217.9141 154.6094,217.9141 C152.5625,217.9141 151.2656,216.8203 151.2656,215.1172 L151.2656,214.0234 C151.2656,212.2422 152.5156,210.9297 154.25,210.9297 C154.8281,210.9297 155.4375,211.0859 155.9063,211.3359 C156.3906,211.6172 156.5625,211.8359 156.6563,212.2422 C156.7188,212.6484 156.75,212.7734 156.8906,212.8984 C157.0313,213.0391 157.2656,213.1484 157.4844,213.1484 C157.75,213.1484 158.0156,213.0078 158.1875,212.7891 C158.2969,212.6328 158.3281,212.4453 158.3281,212.0234 L158.3281,210.6016 C158.3281,210.1641 158.3125,210.0391 158.2188,209.8828 C158.0625,209.6172 157.7813,209.4766 157.4844,209.4766 C157.1875,209.4766 156.9844,209.5703 156.7656,209.8828 L156.5938,209.8047 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="179.25" y="210.1387">«impl»</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="55" x="171.75" y="225.9639">Subject</text><line style="stroke:#000000;stroke-width:1.5;" x1="50" x2="321" y1="234.2656" y2="234.2656"/><line style="stroke:#000000;stroke-width:1.5;" x1="50" x2="321" y1="242.2656" y2="242.2656"/><ellipse cx="60" cy="253.2656" fill="#FFFFFF" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="249" x="67" y="259.2607">register(observer: Observer) : void</text><ellipse cx="60" cy="269.5625" fill="#FFFFFF" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="247" x="67" y="275.5576">remove(observer: Observer) : void</text><ellipse cx="60" cy="285.8594" fill="#FFFFFF" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="96" x="67" y="291.8545">notify() : void</text><!--MD5=[d40932010816485ec57b44b6eea2392a]
+class Observer--><rect codeLine="19" fill="#FFFFFF" height="72.5625" id="Observer" style="stroke:#000000;stroke-width:1.5;" width="128" x="361.5" y="210"/><ellipse cx="389.8" cy="230.1328" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M392.1438,225.8047 C391.2063,225.3672 390.6125,225.2266 389.7375,225.2266 C387.1125,225.2266 385.1125,227.3047 385.1125,230.0234 L385.1125,231.1484 C385.1125,233.7266 387.2219,235.6172 390.1125,235.6172 C391.3313,235.6172 392.4875,235.3203 393.2375,234.7734 C393.8156,234.3672 394.1438,233.9141 394.1438,233.5234 C394.1438,233.0703 393.7531,232.6797 393.2844,232.6797 C393.0656,232.6797 392.8625,232.7578 392.675,232.9453 C392.2219,233.4297 392.2219,233.4297 392.0344,233.5234 C391.6125,233.7891 390.925,233.9141 390.1594,233.9141 C388.1125,233.9141 386.8156,232.8203 386.8156,231.1172 L386.8156,230.0234 C386.8156,228.2422 388.0656,226.9297 389.8,226.9297 C390.3781,226.9297 390.9875,227.0859 391.4563,227.3359 C391.9406,227.6172 392.1125,227.8359 392.2063,228.2422 C392.2688,228.6484 392.3,228.7734 392.4406,228.8984 C392.5813,229.0391 392.8156,229.1484 393.0344,229.1484 C393.3,229.1484 393.5656,229.0078 393.7375,228.7891 C393.8469,228.6328 393.8781,228.4453 393.8781,228.0234 L393.8781,226.6016 C393.8781,226.1641 393.8625,226.0391 393.7688,225.8828 C393.6125,225.6172 393.3313,225.4766 393.0344,225.4766 C392.7375,225.4766 392.5344,225.5703 392.3156,225.8828 L392.1438,225.8047 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="418.2" y="226.1387">«impl»</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="66" x="405.2" y="241.9639">Observer</text><line style="stroke:#000000;stroke-width:1.5;" x1="362.5" x2="488.5" y1="250.2656" y2="250.2656"/><line style="stroke:#000000;stroke-width:1.5;" x1="362.5" x2="488.5" y1="258.2656" y2="258.2656"/><ellipse cx="372.5" cy="269.2656" fill="#FFFFFF" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="104" x="379.5" y="275.2607">update() : void</text><!--MD5=[947b9cf500c88f6d6119a4e9c63cb2a3]
+link ISubject to IObserver--><path codeLine="23" d="M285.236,64.5 C316.337,64.5 348.105,64.5 375.003,64.5 " fill="none" id="ISubject-to-IObserver" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="380.317,64.5,371.317,60.5,375.317,64.5,371.317,68.5,380.317,64.5" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="59" x="303.25" y="57.5669">Observer</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="27" x="292.9825" y="76.953">1...*</text><!--MD5=[34ccd2c36663acfcfd27178c5afa0e02]
+reverse link ISubject to Subject--><path codeLine="24" d="M163.15,136.772 C167.073,155.857 171.238,176.117 174.896,193.912 " fill="none" id="ISubject-backto-Subject" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="156.273,138.081,159.103,117.081,169.986,135.262,156.273,138.081" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="76" x="169.5" y="160.0669">implements</text><!--MD5=[7518d0f2b34a53396ed9c2f001163bb5]
+reverse link Subject to Observer--><path codeLine="25" d="M327.565,246.5 C338.86,246.5 350.155,246.5 361.45,246.5 " fill="none" id="Subject-backto-Observer" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="322.375,246.5,331.375,250.5,327.375,246.5,331.375,242.5,322.375,246.5" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[d26c58969c6d00cdb4a89d1c24cf792b]
+reverse link IObserver to Observer--><path codeLine="26" d="M438.607,121.329 C435.565,150.149 431.943,184.46 429.278,209.7041 " fill="none" id="IObserver-backto-Observer" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="431.685,120.217,440.746,101.062,445.608,121.687,431.685,120.217" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="76" x="436.5" y="160.0669">implements</text><!--MD5=[c275dd63bd193f85362e9ef61f6e2e19]
+@startuml
+!theme plain
+
+interface ISubject <<interface>> {
+    + register(observer: Observer) : void
+    + remove(observer: Observer) : void
+    + notify() : void
+}
+
+interface IObserver <<interface>> {
+    + update() : void
+}
+
+class Subject <<impl>> {
+    + register(observer: Observer) : void
+    + remove(observer: Observer) : void
+    + notify() : void
+}
+
+class Observer <<impl>> {
+    + update() : void
+}
+
+ISubject "1...*" - -right-> IObserver : Observer
+Subject .up.|> ISubject : implements
+Observer -left-> Subject
+Observer .up.|> IObserver : implements
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor white
+    FontColor black
+    FontName Verdana
+    HyperLinkColor blue
+    LineColor black
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor black
+skinparam BackgroundColor white
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor black
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor black
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor black
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor white
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor black
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor black
+  FontName Verdana
+}
+skinparam Header {
+  FontColor black
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color blue
+}
+skinparam IconPackage {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPrivate {
+  Color black
+  BackgroundColor white
+}
+skinparam IconProtected {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPublic {
+  Color black
+  BackgroundColor white
+}
+skinparam Note {
+  FontColor black
+  FontName Verdana
+}
+skinparam Package {
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeA {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeC {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeE {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeI {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeN {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam UseCaseStereoType {
+  FontColor black
+  FontName Verdana
+}
+
+interface ISubject <<interface>> {
+    + register(observer: Observer) : void
+    + remove(observer: Observer) : void
+    + notify() : void
+}
+
+interface IObserver <<interface>> {
+    + update() : void
+}
+
+class Subject <<impl>> {
+    + register(observer: Observer) : void
+    + remove(observer: Observer) : void
+    + notify() : void
+}
+
+class Observer <<impl>> {
+    + update() : void
+}
+
+ISubject "1...*" - -right-> IObserver : Observer
+Subject .up.|> ISubject : implements
+Observer -left-> Subject
+Observer .up.|> IObserver : implements
+@enduml
+
+PlantUML version 1.2021.9beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -15,7 +15,7 @@
 - [x] Creating Your Own Collectors [#15](https://github.com/DA0HN/java-functional-and-reactive/issues/15)
 - [ ] Playing with Collections and Map in Functional style
 - [ ] Data Structures Functional Way
-- [ ] Reactive Programming an Introduction
+- [x] Reactive Programming an Introduction [#18](https://github.com/DA0HN/java-functional-and-reactive/issues/18)
 - [ ] Hello - RxJava
 - [ ] The Observable and the Observers
 - [ ] RxJava Operators

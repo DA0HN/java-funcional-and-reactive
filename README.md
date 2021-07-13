@@ -16,7 +16,7 @@
 - [ ] Playing with Collections and Map in Functional style
 - [ ] Data Structures Functional Way
 - [x] Reactive Programming an Introduction [#18](https://github.com/DA0HN/java-functional-and-reactive/issues/18)
-- [ ] Hello - RxJava
+- [x] Hello - RxJava [#19](https://github.com/DA0HN/java-functional-and-reactive/issues/19)
 - [ ] The Observable and the Observers
 - [ ] RxJava Operators
 - [ ] Combining RxJava 3 Observables

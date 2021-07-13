@@ -18,6 +18,7 @@
         <module>collectors-for-data-processing-in-depth</module>
         <module>creating-your-own-collectors</module>
         <module>reactive-programming-an-introduction</module>
+        <module>hello-rxjava</module>
     </modules>
 
     <properties>

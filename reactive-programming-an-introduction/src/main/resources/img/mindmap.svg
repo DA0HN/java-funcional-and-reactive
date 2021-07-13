@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="291px" preserveAspectRatio="none" style="width:949px;height:291px;background:#FFFFFF;" version="1.1" viewBox="0 0 949 291" width="949px" zoomAndPan="magnify"><defs/><g><ellipse cx="526.4738" cy="140.3948" fill="#FFFFFF" rx="99.9738" ry="22.3948" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="164" x="444.4738" y="143.2414">Reactive Programming</text><ellipse cx="722.3518" cy="34.5704" fill="#FFFFFF" rx="88.3518" ry="20.0704" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="138" x="653.3518" y="37.417">Reactive Manifesto</text><ellipse cx="526.3073" cy="34.3615" fill="#FFFFFF" rx="72.3073" ry="16.8615" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="473.8073" y="38.109">Sync vs Async</text><ellipse cx="312.4086" cy="34.5817" fill="#FFFFFF" rx="105.9086" ry="23.5817" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="177" x="223.9086" y="37.4284">RxJava Reactive Streams</text><ellipse cx="108.711" cy="253.9422" fill="#FFFFFF" rx="97.711" ry="21.9422" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="159" x="29.211" y="256.7889">RxJava The Big Picture</text><ellipse cx="384.5353" cy="254.1071" fill="#FFFFFF" rx="143.5353" ry="31.1071" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="257" x="256.0353" y="256.9537">Concurrent vs Parallel Programming</text><ellipse cx="669.3679" cy="254.1736" fill="#FFFFFF" rx="106.3679" ry="23.6736" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="178" x="580.3679" y="257.0203">Observer Design Pattern</text><ellipse cx="877.2655" cy="254.0531" fill="#FFFFFF" rx="65.7655" ry="15.5531" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="81" x="833.7655" y="257.8007">Push vs Pull</text><!--MD5=[4bc4265e6ce6a1c38b80e74bc2246d7a]
+link Reactive Manifesto to Reactive Programming--><path d="M689.251,53.142 C654.629,71.513 600.491,100.24 564.274,119.456 " fill="none" id="Reactive Manifesto-Reactive Programming" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[0df624a0c1030df0ca54b90bd140bbbd]
+link Sync vs Async to Reactive Programming--><path d="M526.5,51.75 C526.5,69.574 526.5,98.26 526.5,117.951 " fill="none" id="Sync vs Async-Reactive Programming" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[596c8f25ec5d843df0dab8fc4188545a]
+link RxJava Reactive Streams to Reactive Programming--><path d="M355.035,56.171 C393.066,74.653 448.418,101.554 485.859,119.749 " fill="none" id="RxJava Reactive Streams-Reactive Programming" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[cf8023936094af616d425125b6a296e3]
+link Reactive Programming to RxJava The Big Picture--><path d="M463.921,158.193 C384.436,179.395 248.171,215.7433 169.464,236.738 " fill="none" id="Reactive Programming-RxJava The Big Picture" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[bfa836044db9ce4ea9b1e93b50c257ae]
+link Reactive Programming to Concurrent vs Parallel Programming--><path d="M500.124,162.211 C477.987,179.593 446.117,204.6173 421.441,223.9935 " fill="none" id="Reactive Programming-Concurrent vs Parallel Programming" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[8ecd59b3a9d6b9661ba0506a0ac3b1a8]
+link Reactive Programming to Observer Design Pattern--><path d="M553.062,162.211 C578.262,181.86 615.988,211.2754 641.615,231.2577 " fill="none" id="Reactive Programming-Observer Design Pattern" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[b822bd70e3b3656f51894dc0da24989d]
+link Reactive Programming to Push vs Pull--><path d="M585.61,158.68 C639.881,174.657 722.413,199.4709 793.5,223 C810.112,228.4985 828.426,234.9881 843.701,240.5224 " fill="none" id="Reactive Programming-Push vs Pull" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[b5de82e76000df035571b57351ba4ffa]
+@startuml
+!theme plain
+
+
+(Reactive Programming) -up- (Reactive Manifesto)
+(Reactive Programming) -up- (Sync vs Async)
+(Reactive Programming) -up- (RxJava Reactive Streams)
+(Reactive Programming) - - (RxJava The Big Picture)
+(Reactive Programming) - - (Concurrent vs Parallel Programming)
+(Reactive Programming) - - (Observer Design Pattern)
+(Reactive Programming) - - (Push vs Pull)
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor white
+    FontColor black
+    FontName Verdana
+    HyperLinkColor blue
+    LineColor black
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor black
+skinparam BackgroundColor white
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor black
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor black
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor black
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor white
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor black
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor black
+  FontName Verdana
+}
+skinparam Header {
+  FontColor black
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color blue
+}
+skinparam IconPackage {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPrivate {
+  Color black
+  BackgroundColor white
+}
+skinparam IconProtected {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPublic {
+  Color black
+  BackgroundColor white
+}
+skinparam Note {
+  FontColor black
+  FontName Verdana
+}
+skinparam Package {
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeA {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeC {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeE {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeI {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeN {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam UseCaseStereoType {
+  FontColor black
+  FontName Verdana
+}
+
+
+(Reactive Programming) -up- (Reactive Manifesto)
+(Reactive Programming) -up- (Sync vs Async)
+(Reactive Programming) -up- (RxJava Reactive Streams)
+(Reactive Programming) - - (RxJava The Big Picture)
+(Reactive Programming) - - (Concurrent vs Parallel Programming)
+(Reactive Programming) - - (Observer Design Pattern)
+(Reactive Programming) - - (Push vs Pull)
+@enduml
+
+PlantUML version 1.2021.9beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

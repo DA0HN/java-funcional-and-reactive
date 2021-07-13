@@ -1,0 +1,30 @@
+@startuml
+
+!theme plain
+
+interface ISubject <<interface>> {
+    + register(observer: Observer) : void
+    + remove(observer: Observer) : void
+    + notify() : void
+}
+
+interface IObserver <<interface>> {
+    + update() : void
+}
+
+class Subject <<impl>> {
+    + register(observer: Observer) : void
+    + remove(observer: Observer) : void
+    + notify() : void
+}
+
+class Observer <<impl>> {
+    + update() : void
+}
+
+ISubject "1...*" --right-> IObserver : Observer
+Subject .up.|> ISubject : implements
+Observer -left-> Subject
+Observer .up.|> IObserver : implements
+
+@enduml

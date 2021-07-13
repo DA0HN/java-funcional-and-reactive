@@ -1,6 +1,7 @@
 package org.da0hn.usecases;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collector;
 
@@ -27,6 +28,25 @@ public class CustomCollectorUseCase {
     var collect = numbers.stream().filter(e -> e % 2 == 0).collect(toList);
 
     collect.forEach(System.out::println);
+
+
+    Collector<Integer, List<Integer>, List<Integer>> toSortedListCollector = Collector.of(
+      ArrayList::new, // supplier
+      List::add,  // accumulator
+      (left, right) -> {  // combiner
+        left.addAll(right);
+        return left;
+      },
+      (list) -> {   // finisher
+        Collections.sort(list);
+        return list;
+      },
+      Collector.Characteristics.UNORDERED
+    );
+
+    var collect2 = numbers.stream().filter(e -> e % 2 == 0).collect(toSortedListCollector);
+
+    collect2.forEach(System.out::println);
 
   }
 

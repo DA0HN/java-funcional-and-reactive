@@ -16,6 +16,7 @@
         <module>design-patterns-in-functional-way</module>
         <module>creating-streams-from-custom-source-and-understanding-spliterator-pattern</module>
         <module>collectors-for-data-processing-in-depth</module>
+        <module>creating-your-own-collectors</module>
     </modules>
 
     <properties>

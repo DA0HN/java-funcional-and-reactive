@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
  * @author daohn
  * @since 13/07/2021
  */
-public class CallbackUseCase {
+class CallbackUseCase {
 
   public static void main(String[] args) {
 

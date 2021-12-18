@@ -17,13 +17,25 @@ abstract class AbstractFunctionalList<T> {
     return Nil.getNil();
   }
 
-  public static <T> AbstractFunctionalList<? extends T> concat(
-    final AbstractFunctionalList<? extends T> list1,
-    final AbstractFunctionalList<? extends T> list2
+  public static <T> AbstractFunctionalList<T> concat(
+    final AbstractFunctionalList<T> list1,
+    final AbstractFunctionalList<T> list2
   ) {
     return list1.isEmpty()
       ? list2
       : new Const<>(list1.head(), concat(list1.tail(), list2));
+  }
+
+  public AbstractFunctionalList<T> addAll(final Iterable<T> anotherList) {
+    AbstractFunctionalList<T> result = this;
+    for(final T element : anotherList) {
+      result = result.add(element);
+    }
+    return result;
+  }
+
+  public AbstractFunctionalList<T> add(final T element) {
+    return new Const<>(element, this);
   }
 
   public void forEach(final Consumer<? super T> action) {
@@ -84,10 +96,6 @@ abstract class AbstractFunctionalList<T> {
     }
 
     return list;
-  }
-
-  public AbstractFunctionalList<T> add(final T element) {
-    return new Const<>(element, this);
   }
 
   public abstract boolean isEmpty();

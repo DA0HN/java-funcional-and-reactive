@@ -1,5 +1,7 @@
 package org.da0hn.list;
 
+import java.util.List;
+
 public final class Application {
 
   public static void main(final String[] args) {
@@ -18,6 +20,9 @@ public final class Application {
     final var newListConcat = AbstractFunctionalList.concat(newReverseList, list);
     forEach(newListConcat);
 
+    final var integers = List.of(2, 0, 9);
+    final var newListOfAddAll = newListConcat.addAll(integers);
+    forEach(newListOfAddAll);
   }
 
   private static <T> void forEach(final AbstractFunctionalList<T> newList) {

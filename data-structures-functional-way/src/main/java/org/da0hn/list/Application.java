@@ -14,9 +14,13 @@ public final class Application {
 
     final var newReverseList = newListRemovedElement3.reverse();
     forEach(newReverseList);
+
+    final var newListConcat = AbstractFunctionalList.concat(newReverseList, list);
+    forEach(newListConcat);
+
   }
 
-  private static void forEach(final AbstractFunctionalList<Integer> newList) {
+  private static <T> void forEach(final AbstractFunctionalList<T> newList) {
     newList.forEach(System.out::println);
     System.out.println();
   }

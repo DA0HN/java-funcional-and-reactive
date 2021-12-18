@@ -2,10 +2,10 @@ package org.da0hn.list;
 
 import java.util.List;
 
-public final class Application {
+final class Application {
 
   public static void main(final String[] args) {
-    final var list = AbstractFunctionalList.list(1, 2, 3);
+    final var list = FunctionalList.list(1, 2, 3);
     forEach(list);
 
     final var newList = list.add(56);
@@ -17,7 +17,7 @@ public final class Application {
     final var newReverseList = newListRemovedElement3.reverse();
     forEach(newReverseList);
 
-    final var newListConcat = AbstractFunctionalList.concat(newReverseList, list);
+    final var newListConcat = FunctionalList.concat(newReverseList, list);
     forEach(newListConcat);
 
     final var integers = List.of(2, 0, 9);
@@ -25,7 +25,7 @@ public final class Application {
     forEach(newListOfAddAll);
   }
 
-  private static <T> void forEach(final AbstractFunctionalList<T> newList) {
+  private static <T> void forEach(final FunctionalList<T> newList) {
     newList.forEach(System.out::println);
     System.out.println();
   }

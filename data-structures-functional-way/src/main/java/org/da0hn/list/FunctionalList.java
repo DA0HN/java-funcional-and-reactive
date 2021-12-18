@@ -2,39 +2,39 @@ package org.da0hn.list;
 
 import java.util.function.Consumer;
 
-abstract class AbstractFunctionalList<T> {
+public abstract class FunctionalList<T> {
 
   @SafeVarargs
-  public static <T> AbstractFunctionalList<T> list(final T... itens) {
-    AbstractFunctionalList<T> list = list();
+  public static <T> FunctionalList<T> list(final T... itens) {
+    FunctionalList<T> list = list();
     for(int i = itens.length - 1; i >= 0; i--) {
       list = new Const<>(itens[i], list);
     }
     return list;
   }
 
-  public static <T> AbstractFunctionalList<T> list() {
+  public static <T> FunctionalList<T> list() {
     return Nil.getNil();
   }
 
-  public static <T> AbstractFunctionalList<T> concat(
-    final AbstractFunctionalList<T> list1,
-    final AbstractFunctionalList<T> list2
+  public static <T> FunctionalList<T> concat(
+    final FunctionalList<T> list1,
+    final FunctionalList<T> list2
   ) {
     return list1.isEmpty()
       ? list2
       : new Const<>(list1.head(), concat(list1.tail(), list2));
   }
 
-  public AbstractFunctionalList<T> addAll(final Iterable<T> anotherList) {
-    AbstractFunctionalList<T> result = this;
+  public FunctionalList<T> addAll(final Iterable<T> anotherList) {
+    FunctionalList<T> result = this;
     for(final T element : anotherList) {
       result = result.add(element);
     }
     return result;
   }
 
-  public AbstractFunctionalList<T> add(final T element) {
+  public FunctionalList<T> add(final T element) {
     return new Const<>(element, this);
   }
 
@@ -52,7 +52,7 @@ abstract class AbstractFunctionalList<T> {
 
   public abstract T head();
 
-  int length() {
+  public int length() {
     int lengthCounter = 0;
     var currentTail = this;
 
@@ -64,9 +64,7 @@ abstract class AbstractFunctionalList<T> {
     return lengthCounter;
   }
 
-  public abstract AbstractFunctionalList<T> tail();
-
-  public AbstractFunctionalList<T> remove(final T element) {
+  public FunctionalList<T> remove(final T element) {
     if(this.length() == 0) {
       return this;
     }
@@ -84,8 +82,8 @@ abstract class AbstractFunctionalList<T> {
     return new Const<>(this.head(), newTail);
   }
 
-  public AbstractFunctionalList<T> reverse() {
-    AbstractFunctionalList<T> list = list();
+  public FunctionalList<T> reverse() {
+    FunctionalList<T> list = list();
     T current = this.head();
     var temp = this;
 
@@ -98,9 +96,11 @@ abstract class AbstractFunctionalList<T> {
     return list;
   }
 
+  public abstract FunctionalList<T> tail();
+
   public abstract boolean isEmpty();
 
-  private static final class Nil<T> extends AbstractFunctionalList<T> {
+  private static final class Nil<T> extends FunctionalList<T> {
 
     private static Nil<?> nil;
 
@@ -115,7 +115,7 @@ abstract class AbstractFunctionalList<T> {
       return null;
     }
 
-    @Override public AbstractFunctionalList<T> tail() {
+    @Override public FunctionalList<T> tail() {
       return null;
     }
 
@@ -124,12 +124,12 @@ abstract class AbstractFunctionalList<T> {
     }
   }
 
-  private static final class Const<T> extends AbstractFunctionalList<T> {
+  private static final class Const<T> extends FunctionalList<T> {
 
     private final T head;
-    private final AbstractFunctionalList<T> tail;
+    private final FunctionalList<T> tail;
 
-    Const(final T head, final AbstractFunctionalList<T> tail) {
+    Const(final T head, final FunctionalList<T> tail) {
       this.head = head;
       this.tail = tail;
     }
@@ -138,7 +138,7 @@ abstract class AbstractFunctionalList<T> {
       return this.head;
     }
 
-    @Override public AbstractFunctionalList<T> tail() {
+    @Override public FunctionalList<T> tail() {
       return this.tail;
     }
 

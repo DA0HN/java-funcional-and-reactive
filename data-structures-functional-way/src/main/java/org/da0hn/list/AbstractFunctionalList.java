@@ -49,6 +49,24 @@ abstract class AbstractFunctionalList<T> {
 
   public abstract AbstractFunctionalList<T> tail();
 
+  public AbstractFunctionalList<T> remove(final T element) {
+    if(this.length() == 0) {
+      return this;
+    }
+
+    if(element.equals(this.head())) {
+      return this.tail();
+    }
+
+    final var newTail = this.tail().remove(element);
+
+    if(newTail.equals(this.tail())) {
+      return this;
+    }
+
+    return new Const<>(this.head(), newTail);
+  }
+
   public abstract boolean isEmpty();
 
   private static final class Nil<T> extends AbstractFunctionalList<T> {

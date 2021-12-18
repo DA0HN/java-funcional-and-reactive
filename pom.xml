@@ -19,6 +19,7 @@
         <module>creating-your-own-collectors</module>
         <module>reactive-programming-an-introduction</module>
         <module>hello-rxjava</module>
+        <module>data-structures-functional-way</module>
     </modules>
 
     <properties>

@@ -1,8 +1,10 @@
-package org.da0hn.list;
+package org.da0hn.usecases;
+
+import org.da0hn.collections.functinal.FunctionalList;
 
 import java.util.List;
 
-final class Application {
+final class FunctionalListUseCase {
 
   public static void main(final String[] args) {
     final var list = FunctionalList.list(1, 2, 3);

@@ -1,6 +1,4 @@
-package org.da0hn.queue;
-
-import org.da0hn.list.FunctionalList;
+package org.da0hn.collections.functinal;
 
 import java.util.function.Consumer;
 

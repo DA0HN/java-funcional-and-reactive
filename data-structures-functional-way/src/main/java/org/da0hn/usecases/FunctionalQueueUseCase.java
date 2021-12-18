@@ -1,6 +1,8 @@
-package org.da0hn.queue;
+package org.da0hn.usecases;
 
-class Application {
+import org.da0hn.collections.functinal.FunctionalQueue;
+
+final class FunctionalQueueUseCase {
 
   public static void main(final String[] args) {
     final FunctionalQueue<String> queue = FunctionalQueue.queue();

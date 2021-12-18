@@ -1,4 +1,4 @@
-package org.da0hn.list;
+package org.da0hn.collections.functinal;
 
 import java.util.function.Consumer;
 

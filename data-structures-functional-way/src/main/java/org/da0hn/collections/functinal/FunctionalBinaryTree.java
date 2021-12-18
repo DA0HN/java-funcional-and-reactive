@@ -38,7 +38,23 @@ public class FunctionalBinaryTree<E extends Comparable<E>> {
     return tree;
   }
 
-  public FunctionalBinaryTree<E> insert(final E newValue) {
+  public FunctionalBinaryTree<E> remove(final E element) {
+    if(element.compareTo(this.value) < 0) {
+      return new FunctionalBinaryTree<>(this.left.remove(element), this.value, this.right);
+    }
+    if(element.compareTo(this.value) > 0) {
+      return new FunctionalBinaryTree<>(this.left, this.value, this.right.remove(element));
+    }
+    return this.left.merge(this.right);
+  }
+
+  private FunctionalBinaryTree<E> merge(final FunctionalBinaryTree<E> right) {
+    if(this.isEmpty()) return right;
+    if(right.isEmpty()) return this;
+    return new FunctionalBinaryTree<>(this.left.merge(this.right), this.value, right);
+  }
+
+  private FunctionalBinaryTree<E> insert(final E newValue) {
     if(this.isEmpty()) {
       return new FunctionalBinaryTree<E>(NIL, newValue, NIL);
     }
@@ -59,6 +75,21 @@ public class FunctionalBinaryTree<E extends Comparable<E>> {
 
   @Override public String toString() {
     return Integer.toHexString(Objects.hashCode(this));
+  }
+
+  public boolean isMember(final E value) {
+    if(this.value == null) return false;
+    if(value.compareTo(this.value) < 0) {
+      return this.left.isMember(value);
+    }
+    if(value.compareTo(this.value) > 0) {
+      return this.right.isMember(value);
+    }
+    return true;
+  }
+
+  public E max() {
+    return this.right.equals(NIL) ? this.value : this.right.max();
   }
 
   private String internalToString(final FunctionalBinaryTree<E> node, final String table) {

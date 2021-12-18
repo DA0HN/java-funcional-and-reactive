@@ -17,10 +17,6 @@ abstract class AbstractFunctionalList<T> {
     return Nil.getNil();
   }
 
-  public AbstractFunctionalList<T> add(final T element) {
-    return new Const<>(element, this);
-  }
-
   public void forEach(final Consumer<? super T> action) {
     T current = this.head();
     var temp = this;
@@ -65,6 +61,24 @@ abstract class AbstractFunctionalList<T> {
     }
 
     return new Const<>(this.head(), newTail);
+  }
+
+  public AbstractFunctionalList<T> reverse() {
+    AbstractFunctionalList<T> list = list();
+    T current = this.head();
+    var temp = this;
+
+    while(!temp.equals(Nil.getNil())) {
+      list = list.add(current);
+      temp = temp.tail();
+      current = temp.head();
+    }
+
+    return list;
+  }
+
+  public AbstractFunctionalList<T> add(final T element) {
+    return new Const<>(element, this);
   }
 
   public abstract boolean isEmpty();

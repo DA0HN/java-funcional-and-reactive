@@ -17,7 +17,7 @@
 - [x] Data Structures Functional Way [#17](https://github.com/DA0HN/java-functional-and-reactive/issues/17)
 - [x] Reactive Programming an Introduction [#18](https://github.com/DA0HN/java-functional-and-reactive/issues/18)
 - [x] Hello - RxJava [#19](https://github.com/DA0HN/java-functional-and-reactive/issues/19)
-- [ ] The Observable and the Observers
+- [x] The Observable and the Observers [#20](https://github.com/DA0HN/java-functional-and-reactive/issues/20)
 - [ ] RxJava Operators
 - [ ] Combining RxJava 3 Observables
 - [ ] Concurrency and Parallelization

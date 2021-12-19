@@ -20,6 +20,7 @@
         <module>reactive-programming-an-introduction</module>
         <module>hello-rxjava</module>
         <module>data-structures-functional-way</module>
+        <module>the-observable-and-the-observers</module>
     </modules>
 
     <properties>

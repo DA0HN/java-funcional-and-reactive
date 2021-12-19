@@ -18,7 +18,7 @@
 - [x] Reactive Programming an Introduction [#18](https://github.com/DA0HN/java-functional-and-reactive/issues/18)
 - [x] Hello - RxJava [#19](https://github.com/DA0HN/java-functional-and-reactive/issues/19)
 - [x] The Observable and the Observers [#20](https://github.com/DA0HN/java-functional-and-reactive/issues/20)
-- [ ] RxJava Operators
+- [x] RxJava Operators [#21](https://github.com/DA0HN/java-functional-and-reactive/issues/21)
 - [ ] Combining RxJava 3 Observables
 - [ ] Concurrency and Parallelization
 - [ ] Subjects, Replaying and Caching in RxJava 3.x

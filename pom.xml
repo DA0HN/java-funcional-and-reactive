@@ -21,6 +21,7 @@
         <module>hello-rxjava</module>
         <module>data-structures-functional-way</module>
         <module>the-observable-and-the-observers</module>
+        <module>rx-java-operators</module>
     </modules>
 
     <properties>
